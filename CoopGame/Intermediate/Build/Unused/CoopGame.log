@@ -1,20 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer).
-  Creating makefile for CoopGameEditor (no existing makefile)
+  Creating makefile for CoopGameEditor (ini files are newer than UBTMakefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-1682.dll".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-1682.pdb".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-1893.dll".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-1893.pdb".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-2908.dll".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-2908.pdb".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-4754.dll".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-4754.pdb".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-6373.dll".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-6373.pdb".
-  Building 2 actions with 12 processes...
-    [1/2] UE4Editor-CoopGame.lib
-       Creating library D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.lib and object D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.exp
-    [2/2] UE4Editor-CoopGame.dll
-       Creating library D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.suppressed.lib and object D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.suppressed.exp
+  Target is up to date
   Deploying CoopGameEditor Win64 Development...
-  Total build time: 5.88 seconds (Parallel executor: 0.78 seconds)
+  Total build time: 5.47 seconds (NoActionsToExecute executor: 0.00 seconds)
