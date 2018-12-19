@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "SCharacter.generated.h"
 
+class UCameraComponent;
+class USpringArmComponent;
+
 UCLASS()
 class COOPGAME_API ASCharacter : public ACharacter
 {
@@ -19,7 +22,20 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+	//Moves character forward
+	void MoveForward(float Value);
+
+	//Moves character Backwards
+	void MoveRight(float Value);
+
+	//Ataches a camera to the player for the third person controller mode
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USpringArmComponent* SpringArmComp;
+
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
