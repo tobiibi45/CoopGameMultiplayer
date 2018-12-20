@@ -28,6 +28,12 @@ protected:
 	//Moves character Backwards
 	void MoveRight(float Value);
 
+	//Allows the character to crouch
+	void BeginCrouch();
+
+	//Stops the character from crouching
+	void EndCrouch();
+
 	//Ataches a camera to the player for the third person controller mode
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
@@ -41,5 +47,8 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	// Called to get the eye location for the character
+	virtual FVector GetPawnViewLocation() const override;
 
 };
