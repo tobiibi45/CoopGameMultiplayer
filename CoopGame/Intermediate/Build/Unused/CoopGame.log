@@ -1,20 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer).
-  Creating makefile for CoopGameEditor (no existing makefile)
+  Creating makefile for CoopGameEditor (ini files are newer than UBTMakefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for CoopGameEditor
-    Running UnrealHeaderTool "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\CoopGame.uproject" "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\CoopGameEditor\Development\CoopGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CoopGameEditor in 7.8332511 seconds
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-2719.dll".
-  Deleting old hot reload file: "D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Binaries\Win64\UE4Editor-CoopGame-2719.pdb".
-  Building 7 actions with 12 processes...
-    [1/7] CoopGame.init.gen.cpp
-    [2/7] SWeapon.gen.cpp
-    [3/7] SProjectileWeapon.gen.cpp
-    [4/7] SProjectileWeapon.cpp
-    [5/7] SWeapon.cpp
-    [6/7] UE4Editor-CoopGame.lib
-       Creating library D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.lib and object D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.exp
-    [7/7] UE4Editor-CoopGame.dll
-       Creating library D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.suppressed.lib and object D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Intermediate\Build\Win64\UE4Editor\Development\CoopGame\UE4Editor-CoopGame.suppressed.exp
+  Target is up to date
   Deploying CoopGameEditor Win64 Development...
-  Total build time: 31.75 seconds (Parallel executor: 18.25 seconds)
+  Total build time: 4.82 seconds (NoActionsToExecute executor: 0.00 seconds)

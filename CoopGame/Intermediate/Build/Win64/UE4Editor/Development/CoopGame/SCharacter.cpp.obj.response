@@ -417,6 +417,8 @@
 /I D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Source
 /I D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Source\CoopGame\Public
 /I D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Source\CoopGame
+/I D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Source\CoopGame\Public\Challenges
+/I D:\UnrealEngine\Games\MultiplayerGame\CoopGameMultiplayer\CoopGame\Source\CoopGame\Public\Components
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
